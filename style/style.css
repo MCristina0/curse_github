@@ -1,8 +1,41 @@
 .contenerdo-padre{
-    width: 100vw;
+
+    width: 100%;
     
 
+
+
+.soon1{
+    width: 100%;
+    height:auto;
+
+    text-align: center;
+    background-color: blueviolet;
+    border: solid none solid none;
+    border-color: aliceblue;
+    padding: 2rem ;
+
 }
+
+
+.soon2{
+  width: 100%;
+  height:50%;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+
+}
+.mn-saon{
+  width: 20%;
+    height: 33%;
+  border-radius: 15px;
+  border: outset;
+  border-color: aliceblue;
+  background-color: antiquewhite;
+  justify-content: space-between;
+
+}}
 img{
    
     width: 12rem;
@@ -12,23 +45,13 @@ img{
 }
 header{
 display: flex;
-    background-color: blueviolet;
+    background-color: rgb(111, 36, 182);
     width: 100%;
     height: auto;
     align-items: center;
 
     
 }
-
-.soon1{
-    width: 100%;
-    height:5rem ;
-    justify-content: center;
-    text-align: center;
-    background-color: rgb(216, 173, 255);
-
-}
-
  
 
 body {
@@ -47,27 +70,8 @@ body {
     width: 100%;
     height: 14rem;
   }
-  .mn-saon{
-   
-    border-radius: 15px;
-    background-color: antiquewhite;
-    margin: 5px;
-    text-align: center;
-    padding: 5px;
-    border: outset;
-    border-color: aliceblue;
-  }
 
 
-  .soon2{
-     display: flex;
-     text-align: justify; 
-     align-items: center;
-     column-width: auto;
-     place-content: center;
-     flex-direction: row-reverse;
-     flex-direction:column-reverse;
-}
  .header2{
   width: 20%;
   float: right;
@@ -102,5 +106,6 @@ input{
 }
 
 select{ border-radius: 20px;
+  height: 2rem;
 
 }
