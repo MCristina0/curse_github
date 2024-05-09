@@ -1,14 +1,10 @@
 .contenerdo-padre{
 
     width: 100%;
-    
-
-
-
+}
 .soon1{
     width: 100%;
     height:auto;
-
     text-align: center;
     background-color: blueviolet;
     border: solid none solid none;
@@ -18,24 +14,27 @@
 }
 
 
-.soon2{
-  width: 100%;
-  height:50%;
-  display: flex;
-  flex-direction: column-reverse;
-  justify-content: space-between;
+.soon2
+{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-around;
+ text-align: justify;
+align-items: center;
+column-width: 33%;
 
 }
+
 .mn-saon{
-  width: 20%;
-    height: 33%;
+  width: 30;
+  height: 33%;
   border-radius: 15px;
   border: outset;
   border-color: aliceblue;
   background-color: antiquewhite;
   justify-content: space-between;
 
-}}
+}
 img{
    
     width: 12rem;
@@ -77,6 +76,7 @@ body {
   float: right;
   padding: 0rem 15rem;
  }
+ 
  .header1{
   text-align: center;
   width: 80%;
@@ -88,11 +88,13 @@ body {
   width: 6rem;
   height:6rem ;
   border-radius: 50%;
+ }
 
   h2{
     text-align: center;
   }
-}
+
+
 button{
   align-self:flex-end;
   border-radius: 20px;
