@@ -18,21 +18,24 @@
 {
  display: flex;
  flex-wrap: wrap;
- justify-content: space-around;
+ 
  text-align: justify;
 align-items: center;
+justify-content: center;
 column-width: 33%;
 
 }
 
 .mn-saon{
-  width: 30;
-  height: 33%;
+  width: 17%;
+  height: auto;
   border-radius: 15px;
   border: outset;
   border-color: aliceblue;
   background-color: antiquewhite;
   justify-content: space-between;
+  margin:1rem;
+
 
 }
 img{
