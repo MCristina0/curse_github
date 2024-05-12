@@ -6,9 +6,8 @@
   
     height:auto;
     text-align: center;
-    background-color: blueviolet;
-    border: solid none solid none;
-    border-color: aliceblue;
+    border: solid;
+    border-color:  rgb(116, 116, 255) rgb(116, 116, 255) white  rgb(116, 116, 255) ;
     padding: 2rem ;
 
 }
@@ -32,10 +31,10 @@ height: auto;
   width: 17%;
   height: auto;
   border-radius: 15px;
-  border: outset;
-  border-color: aliceblue;
   background-color: antiquewhite;
-  margin:1rem;
+  margin: 1rem;
+;
+color: rgb(140, 0, 255);
 
 
 
@@ -134,7 +133,9 @@ footer{
 }
 
 .logo{
+  color: aliceblue;
   width: 3rem;
   height: 3rem;
+  margin: 1REM;
   
 }
