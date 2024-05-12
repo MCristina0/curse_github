@@ -1,6 +1,6 @@
 .parentContainer{
 
-    width: 100%;
+  width: 100lvw;
 }
 .soon1{
   
@@ -27,6 +27,11 @@ height: auto;
 
 }
 
+.mn-saon > img {
+  width: 100%;
+  height: 10rem;
+
+}
 .mn-saon{
   width: 17%;
   height: auto;
@@ -58,7 +63,7 @@ display: flex;
  
 
 body {
-    width: 100%;  
+    width: 100lvw;  
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
@@ -128,7 +133,7 @@ footer{
   justify-content: center;
   text-align: center;
   height: auto;
-  width: 100%;
+  width: 100lvw;
    padding: 2rem;
 }
 
