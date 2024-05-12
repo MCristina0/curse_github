@@ -1,4 +1,4 @@
-.contenerdo-padre{
+.parentContainer{
 
     width: 100%;
 }
@@ -33,14 +33,14 @@ column-width: 33%;
   border: outset;
   border-color: aliceblue;
   background-color: antiquewhite;
-  justify-content: space-between;
   margin:1rem;
+
 
 
 }
 img{
    
-    width: 12rem;
+    width: 100%;
     height:12rem ;
     border-radius: 15px;
 
